@@ -1,0 +1,158 @@
+baseURL = "https://agencemadec.netlify.com/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Agence MADEC"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav ]]
+    name = "A Propos"
+	title = "A propos de Madec"
+    URL = "/about/"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Services"
+    URL = "/services/"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Réferences"
+    URL = "/references/"
+    weight = 4
+
+    [[menu.nav]]
+    name = "L'Equipe"
+    URL = "#our-team"
+    weight = 5
+
+    [[menu.nav ]]
+    name = "Blog"
+    URL = "/blog"
+    weight = 7
+
+    [[menu.nav ]]
+    name = "Contact"
+    URL = "/nous-contact/"
+    weight = 8
+
+# Site params
+[params]
+home= "Accueil"
+logo = "images/logos/logo_madec.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Madec Agence à la hauteur de vos attentes"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/i-am-madec.jpg"
+	bgImage-p = "images/slider/about_madec.jpg"
+    icon = "tf-ion-play"
+    heading = "MADEC"
+    content= "Nous sommes une agence digitale à la hauteur de vos attentes"
+    btn = true
+    btnText="CONTACTEZ-NOUS"
+    btnURL="#contact-us"
+	
+	
+	[params.bannerp]
+    enable = true
+	bgImage = "images/slider/about_madec.jpg"
+    icon = "tf-ion-play"
+    heading = "MADEC"
+    content= "Agence digitale"
+    btn = true
+    btnText="CONTACTEZ-NOUS"
+    btnURL="#contact-us"
+	
+	
+	[params.banners]
+    enable = true
+	bgImage = "images/slider/services.jpg"
+    icon = "tf-ion-play"
+    heading = "SERVICES"
+    content= "Les services que proposons"
+    btn = true
+    btnText="Voir Nos réalisations"
+    btnURL="/references/"
+	
+	[params.bannerr]
+    enable = true
+	bgImage = "images/slider/references.jpg"
+    icon = "tf-ion-play"
+    heading = "NOS RÉFÉRENCES"
+    content= "Notre savoir faire à votre service"
+    btn = true
+    btnText="Voir Nos réalisations"
+    btnURL="/references/"
+	
+	[params.bannerc]
+    enable = true
+	bgImage = "images/slider/contactform.jpg"
+    icon = "tf-ion-play"
+    heading = "CONTACTEZ L'AGENCE MADEC"
+    content= ""
+	
+	[params.bannerb]
+    enable = true
+	bgImage = "images/slider/references.jpg"
+    icon = "tf-ion-play"
+    heading = "NOTRE ACTUALITE"
+    content= ""
+    
+	
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Great Design & Incredible Features"
+    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    btnURL = "#"
+    btnText = "Start a project with us"
+
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "#"

@@ -1,0 +1,12 @@
+enable : true
+heading : TÉLÉCHARGER NOTRE LIVRE BLANC
+headingCross: x
+livresBlancs :
+-   name : Les Documents indispensables sur
+    designation : Le Design
+    designation1 : Le Délévoppement
+    designation2 : Le marketing	
+OuiNonLivre:	
+-   choix : OUI
+
+image : images/portfolio/Reaslisation_7.jpg

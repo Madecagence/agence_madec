@@ -1,0 +1,22 @@
+enable : true
+heading : L'
+headingSpan : Equipe
+teamMember :
+  - image : images/team/femme_picto.jpg
+    name : Mathilde J.
+    designation : Responsable Marketing
+      
+  - image : images/team/homme_picto.jpg
+    name : Mamadou B.
+    designation : Developeur Web
+    
+      
+  - image : images/team/homme_picto.jpg
+    name : Adam B.
+    designation : Developeur Web
+    
+      
+  - image : images/team/homme_picto.jpg
+    name : Eric M.
+    designation : Web Designer
+    

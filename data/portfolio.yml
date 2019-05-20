@@ -1,0 +1,25 @@
+enable : true
+heading : Quelques
+headingSpan : Réalisations
+portfolioItem :
+  - types : design
+    image : images/portfolio/Reaslisation_1.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Bon Plat Restaurant
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : development             design creation 
+    image : images/portfolio/Reaslisation_2.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Attack Groupe Automobile
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : design, development
+    image : images/portfolio/Reaslisation_3.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Mix Consmetic
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
